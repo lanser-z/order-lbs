@@ -27,12 +27,12 @@ BS架构，前端 vue.js+elementui  后端 tornado+redis
 前端打包生成在backend/vuedist中
 
 后端：安装python3和redis，运行redis提供6379端口
-*pip3 install -r requirements.txt
+* pip3 install -r requirements.txt
 
 测试
 ====
-*python3 webserver.py
-*在python交互环境用webserver.py中Shop.NewShop生成店铺
-*在python交互环境用webserver.py中Shop.GenShopKey查看客户和商家对应码
-*客户: http://127.0.0.1:9000/load?shop=客户对应码&role=customer
-*商家: http://127.0.0.1:9000/load?shop=商家对应码&role=saler
+* python3 webserver.py
+* 在python交互环境用webserver.py中Shop.NewShop生成店铺
+* 在python交互环境用webserver.py中Shop.GenShopKey查看客户和商家对应码
+* 客户: http://127.0.0.1:9000/load?shop=客户对应码&role=customer
+* 商家: http://127.0.0.1:9000/load?shop=商家对应码&role=saler
